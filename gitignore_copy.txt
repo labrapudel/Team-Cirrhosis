@@ -1,0 +1,12 @@
+# Тяжёлые и скачиваемые данные не храним в репозитории
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.rds
+GDCdata/
+*.rds
+# Служебное
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+renv/library/
